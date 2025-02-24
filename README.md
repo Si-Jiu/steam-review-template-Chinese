@@ -1,6 +1,6 @@
-中文版本的Readme周末应该能写出来
-中文版本的Readme週末應該能寫出來
-The Chinese version of Readme will come during the weekend.
+中文版本的Readme周末应该能写出来  
+中文版本的Readme週末應該能寫出來  
+The Chinese version of Readme will come during the weekend.  
 # Steam Review Template
 
 This is a tool to simplify the creation of copy-pasta reviews that are somewhat popular on Steam. The categories and options are not from my head, I just copied them from somewhere. There are some minor variations on some of the options, but this is the typical rundown.
