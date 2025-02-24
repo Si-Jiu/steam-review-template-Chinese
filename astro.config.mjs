@@ -5,12 +5,12 @@ import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://vojtastruhar.github.io/",
-  base: "/steam-review-template",
+  site: "https://si-jiu.github.io",
+  base: "/steam-review-template-Chinese",
   integrations: [tailwind(), sitemap()],
   i18n: {
-    defaultLocale: "en",
-    locales: ["en", "es", "fr, it", "zh"],
+    defaultLocale: "zh",
+    locales: ["zh", "en", "es", "fr, it"],
 
   }
 });
