@@ -1,5 +1,7 @@
 # Steam 评测模板
 
+[English](./README_EN.md)
+
 这个工具可以简化创建在Steam测评上流行的copy-pasta式评测。选项来源于各种Steam评测，做了小修改。
 
 ## 使用
@@ -16,9 +18,11 @@
 ☐ 神威·太湖之光
 ```
 
+在生成内容的最后面有这个项目的地址，你可以删除它，但是如果你不删我会感谢你的 :)
+
 ## 为什么单独创建仓库？
 
-原本我是提交PR的，但是原作者因为政治原因拒绝了我的PR。另一位添加俄罗斯翻译的也遇到了这样的情况。  
+原本我提交了PR，但是原作者因为政治原因拒绝了我的PR。另一位添加俄罗斯翻译的也遇到了这样的情况。  
 相关PR：  
 [被拒绝的中文翻译](https://github.com/VojtaStruhar/steam-review-template/pull/22)  
 [被拒绝的俄罗斯翻译](https://github.com/VojtaStruhar/steam-review-template/pull/26)  
