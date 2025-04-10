@@ -6,7 +6,7 @@ interface Props {
 }
 const { title } = Astro.props;
 
-let config_json = templates[Astro.currentLocale] || templates.en;
+let config_json = templates[Astro.currentLocale] || templates.zh;
 ---
 
 <!doctype html>
@@ -18,14 +18,17 @@ let config_json = templates[Astro.currentLocale] || templates.en;
     <link
       rel="icon"
       type="image/svg+xml"
-      href={"/steam-review-template/favicon.svg"}
+      href={"/steam-review-template-Chinese/favicon.svg"}
     />
     <meta name="generator" content={Astro.generator} />
-    <link rel="sitemap" href="/steam-review-template/sitemap-index.xml" />
+    <link
+      rel="sitemap"
+      href="/steam-review-template-Chinese/sitemap-index.xml"
+    />
     <title>{title}</title>
     <script
       defer
-      data-domain="vojtastruhar.github.io/steam-review-template"
+      data-domain="si-jiu.github.io/steam-review-template-Chinese"
       src="https://analytics.vojtechstruhar.com/js/script.outbound-links.tagged-events.js"
     ></script>
   </head>
@@ -37,11 +40,15 @@ let config_json = templates[Astro.currentLocale] || templates.en;
     </div>
     <footer class="bg-slate-700 text-white py-2 flex flex-col items-end">
       <p class="px-8">
+        原作者
         <a
           href="https://www.vojtechstruhar.com"
           target="_blank"
           class="text-white">Vojtěch Struhár</a
-        >, 2021
+        >; 汉化
+        <a href="https://github.com/Si-Jiu" target="_blank" class="text-white"
+          >SiJiu49</a
+        >
       </p>
     </footer>
   </body>
@@ -54,7 +61,14 @@ let config_json = templates[Astro.currentLocale] || templates.en;
     let output = document.getElementById("output");
     if (output) {
       output.innerHTML = "";
-      config_json.categories.forEach((category) => {
+      config_json.categories.forEach((category, index) => {
+        if (
+          document
+            .getElementById(`field-${index}`)
+            .getAttribute("data-hidden") === "true"
+        ) {
+          return;
+        }
         output.innerHTML += `\n---{ ${category.title} }---\n`;
         category.options.forEach((item) => {
           if (
@@ -72,7 +86,8 @@ let config_json = templates[Astro.currentLocale] || templates.en;
 
       output.innerHTML += `\n`;
       output.innerHTML += `---{ ${config_json.author} }---\n`;
-      output.innerHTML += `☑ https://vojtastruhar.github.io/steam-review-template \n`;
+      output.innerHTML += `☑ 原作 https://vojtastruhar.github.io/steam-review-template/ \n`;
+      output.innerHTML += `☑ 汉化 https://si-jiu.github.io/steam-review-template-Chinese/ \n`;
     }
   }
 
@@ -110,6 +125,25 @@ let config_json = templates[Astro.currentLocale] || templates.en;
           data[target.name] = target.value;
         }
       }
+    });
+  });
+
+  config_json.categories.forEach((category, index) => {
+    const categoryFieldset = document.getElementById(`field-${index}`);
+    const categoryLegend = document.getElementById(`legend-${index}`);
+    const toggleButton = document.getElementById(`hide-toggle-${index}`);
+
+    toggleButton?.addEventListener("click", () => {
+      const isHidden = categoryFieldset.getAttribute("data-hidden") === "true";
+
+      categoryFieldset.setAttribute("data-hidden", !isHidden);
+      toggleButton.innerText = isHidden ? "隐藏" : "显示";
+
+      toggleButton.classList.toggle("bg-red-400");
+      toggleButton.classList.toggle("bg-gray-400");
+
+      categoryLegend.classList.toggle("bg-emerald-300");
+      categoryLegend.classList.toggle("bg-gray-400");
     });
   });
 </script>

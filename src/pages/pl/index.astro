@@ -1,31 +1,34 @@
 ---
-import config_json from "../../review_templates/template_zh.json";
+import config_json from "../../review_templates/template_pl.json";
 import PageLayout from "../../layouts/PageLayout.astro";
 import OptionForm from "../../components/OptionForm.astro";
 import FlagSelect from "../../components/FlagSelect.astro";
 ---
 
-<PageLayout title="Steam评测模板">
+<PageLayout title="Wzór recenzji steam">
   <header class="bg-slate-700 text-white py-2 flex flex-col items-center">
-    <h1>{"---{ 评测模板 }---"}</h1>
+    <h1>{"---{ Wzór recenzji }---"}</h1>
     <FlagSelect />
-    <p class="mt-0">☑ 超赞</p>
+    <p class="mt-0">☑ Super</p>
   </header>
 
   <div class="max-w-screen-sm mx-auto px-4">
     <p>
-      这个工具可以简化创建在Steam测评上流行的copy-pasta式评测
-      (如果你打开了这个网页，这<em>就是</em> 你在找的东西)。我觉得他们比较有趣，所以我做了这个网站，以避免重复复制粘贴。&nbsp;😆
+      To małe narzędzie upraszcza tworzenie kopiuj-wklej do recenzji na Steam
+      (jeśli jesteś na tej stronie, to <em>jest</em> właśnie to, czego szukasz).
+      Uważam je za umiarkowanie zabawne, więc stworzyłem tę stronę,
+      aby nie musieć tyle kopiować i wklejać..&nbsp;😆
     </p>
     <p>
-      代码开源 &rarr; <a
-        href="https://github.com/Si-Jiu/steam-review-template-Chinese"
+      Ten kod jest otwartoźródłowy &rarr; <a
+        href="https://github.com/VojtaStruhar/steam-review-template-Chinese"
       >
-        在Github上查看</a
+        sprawdź go na Githube</a
       >!
     </p>
     <p>
-      在结果下面包含制作名单。可以选择把他留在那里，如果不删去我会十分感谢你！
+      Wyniki są generowane z moim napisem który mnie kredytuje.
+      Pozostawienie jej jest opcjonalne ale mile widziane! Dzięki!
     </p>
     {
       config_json.categories.map((category, index) => (
@@ -37,7 +40,7 @@ import FlagSelect from "../../components/FlagSelect.astro";
         id="output-button"
         class="py-4 px-8 text-lg font-bold rounded-lg border-none shadow bg-amber-400 hover:cursor-pointer hover:shadow-lg transition-all"
       >
-        生成Steam评测！</button
+        Wygeneruj recenzję!</button
       >
     </div>
 
@@ -46,7 +49,7 @@ import FlagSelect from "../../components/FlagSelect.astro";
         id="copy-output"
         class="py-2 px-4 text-lg rounded-lg border-none shadow bg-sky-100 hover:cursor-pointer hover:shadow-lg transition-all"
       >
-        复制输出</button
+        kopiuj wynik</button
       >
     </div>
   </div>
