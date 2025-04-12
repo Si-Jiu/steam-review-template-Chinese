@@ -1,4 +1,4 @@
-# Steam Review Template
+# Steam Review Template Chinese
 
 [中文](./README.md)  
 
@@ -22,7 +22,7 @@ You just tick all the boxes that you want, the output should look something like
 
 It will generate with a line on the bottom that gives me credit. I would appreciate it if you left it there, but you don't have to :)  
 
-## Why create a separate repository?
+## Why not submit PR?
 
 Originally I submitted a PR, but the original author rejected my PR for political reasons. The same happened to another person who added a Russian translation.  
 Related PR:  
