@@ -1,4 +1,4 @@
-# Steam Review Template
+# Steam Review Template Chinese
 
 [中文](./README.md)  
 
