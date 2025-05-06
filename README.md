@@ -1,6 +1,6 @@
 # Steam 评测模板
 
-[English](./README_EN.md)
+**简体中文** | [English](./README_EN.md)
 
 这个工具可以简化创建在Steam测评上流行的复制粘贴式评测。选项来源于各种Steam评测，做了小修改。
 

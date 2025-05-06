@@ -1,6 +1,6 @@
 # Steam Review Template Chinese
 
-[中文](./README.md)  
+[简体中文](./README.md) | **English**  
 
 This is a tool to simplify the creation of copy-pasta reviews that are somewhat popular on Steam. The categories and options are not from my head, I just copied them from somewhere. There are some minor variations on some of the options, but this is the typical rundown.  
 
