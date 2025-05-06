@@ -20,11 +20,13 @@ You just tick all the boxes that you want, the output should look something like
 ☐ Ask NASA if they have a spare computer
 ```  
 
-It will generate with a line on the bottom that gives me credit. I would appreciate it if you left it there, but you don't have to :)  
+## Add more language/function
 
-## Why not submit PR?
+Submit a PR to the upstream repository. If it's rejected, you can submit it here instead.  
 
-Originally I submitted a PR, but the original author rejected my PR for political reasons. The same happened to another person who added a Russian translation.  
+## About Upstream Repository
+
+Originally I submitted a PR to the upstream, but the original author rejected my PR for political reasons. The same thing happened to another person who added a Russian translation.  
 Related PR:  
 [22](https://github.com/VojtaStruhar/steam-review-template/pull/22)  
 [26](https://github.com/VojtaStruhar/steam-review-template/pull/26)  
