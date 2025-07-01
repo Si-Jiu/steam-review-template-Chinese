@@ -2,7 +2,7 @@
   "name": "steam-review",
   "version": "2.0.0",
   "private": true,
-  "homepage": "https://si-jiu.github.io/steam-review-template-Chinese/",
+  "homepage": "https://steam-review.sijiu49.us.kg//",
   "dependencies": {
     "@astrojs/sitemap": "^3.2.1",
     "@astrojs/tailwind": "^5.1.0",

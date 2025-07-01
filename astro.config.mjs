@@ -5,8 +5,8 @@ import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://si-jiu.github.io",
-  base: "/steam-review-template-Chinese",
+  site: "https://steam-review.sijiu49.us.kg",
+  base: "/",
   integrations: [tailwind(), sitemap()],
   i18n: {
     defaultLocale: "zh",
