@@ -7,40 +7,42 @@ import flag_FR from "./flags/flag-french.png";
 import flag_IT from "./flags/flag-italian.png";
 import flag_DE from "./flags/flag-german.png";
 import flag_PL from "./flags/flag-poland.png";
-import flag_ZH from "./flags/flag-chinese.png";
+import flag_CN from "./flags/flag-chinese_cn.png";
+import flag_TW from "./flags/flag-chinese_tw.png";
 
 let current = Astro.currentLocale;
 
 let descriptions = [
-    { code: "zh", flag: flag_ZH },
-    { code: "en", flag: flag_EN },
-    { code: "es", flag: flag_ES },
-    { code: "fr", flag: flag_FR },
-    { code: "it", flag: flag_IT },
-    { code: "de", flag: flag_DE },
-    { code: "pl", flag: flag_PL },
+  { code: "zh_cn", flag: flag_CN },
+  { code: "zh_tw", flag: flag_TW },
+  { code: "en", flag: flag_EN },
+  { code: "es", flag: flag_ES },
+  { code: "fr", flag: flag_FR },
+  { code: "it", flag: flag_IT },
+  { code: "de", flag: flag_DE },
+  { code: "pl", flag: flag_PL },
 ];
 ---
 
 <div class="flex gap-4 text-3xl mb-4">
-    {
-        descriptions.map((data) => (
-            <a
-                href={"/" + data.code}
-                class:list={[
-                    data.code == current && "outline",
-                    "rounded no-underline text-white",
-                    "hover:bg-white hover:bg-opacity-20",
-                ]}
-            >
-                <Image
-                    src={data.flag}
-                    alt={data.code + " flag"}
-                    height={40}
-                    width={40}
-                    class={"block"}
-                />
-            </a>
-        ))
-    }
+  {
+    descriptions.map((data) => (
+      <a
+        href={"/" + data.code}
+        class:list={[
+          data.code == current && "outline",
+          "rounded no-underline text-white",
+          "hover:bg-white hover:bg-opacity-20",
+        ]}
+      >
+        <Image
+          src={data.flag}
+          alt={data.code + " flag"}
+          height={40}
+          width={40}
+          class={"block"}
+        />
+      </a>
+    ))
+  }
 </div>

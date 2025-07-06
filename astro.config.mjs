@@ -9,7 +9,7 @@ export default defineConfig({
   base: "/",
   integrations: [tailwind(), sitemap()],
   i18n: {
-    defaultLocale: "zh",
-    locales: ["zh", "en", "es", "fr", "it", "de", "pl"],
+    defaultLocale: "zh_cn",
+    locales: ["zh_cn", "zh_tw", "en", "es", "fr", "it", "de", "pl"],
   }
 });

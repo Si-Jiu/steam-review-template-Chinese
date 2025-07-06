@@ -1,0 +1,53 @@
+---
+import config_json from "../../review_templates/template_zh-tw.json";
+import PageLayout from "../../layouts/PageLayout.astro";
+import OptionForm from "../../components/OptionForm.astro";
+import FlagSelect from "../../components/FlagSelect.astro";
+---
+
+<PageLayout title="Steam評測模板">
+  <header class="bg-slate-700 text-white py-2 flex flex-col items-center">
+    <h1>{"---{ 評測模板 }---"}</h1>
+    <FlagSelect />
+    <p class="mt-0">☑ 超讚</p>
+  </header>
+
+  <div class="max-w-screen-sm mx-auto px-4">
+    <p>
+      這個工具可以簡化建立在Steam測評中的複製貼上式評測
+      (如果你打開了這個網頁，這<em>就是</em> 你在找的東西)。我覺得他們比較有趣，所以我做了這個網站，以避免重複複製貼上。&nbsp;😆
+    </p>
+    <p>
+      程式碼開源 &rarr; <a
+        href="https://github.com/Si-Jiu/steam-review-template-Chinese"
+      >
+        在Github上檢視</a
+      >!
+    </p>
+    <p>
+      在結果下面包含製作名單。可以選擇把它留在那裡，如果不刪去我會十分感謝你！
+    </p>
+    {
+      config_json.categories.map((category, index) => (
+        <OptionForm category={category} index={index} />
+      ))
+    }
+    <div class="flex justify-center">
+      <button
+        id="output-button"
+        class="py-4 px-8 text-lg font-bold rounded-lg border-none shadow bg-amber-400 hover:cursor-pointer hover:shadow-lg transition-all"
+      >
+        生成Steam評測！</button
+      >
+    </div>
+
+    <div class="flex justify-center mt-4">
+      <button
+        id="copy-output"
+        class="py-2 px-4 text-lg rounded-lg border-none shadow bg-sky-100 hover:cursor-pointer hover:shadow-lg transition-all"
+      >
+        複製輸出</button
+      >
+    </div>
+  </div>
+</PageLayout>
