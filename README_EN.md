@@ -1,6 +1,6 @@
 # Steam Review Template Chinese
 
-[简体中文](./README.md) | **English**  
+[简体中文](./README.md) | [正體中文](./README_ZH-TW.md) | **English**
 
 This is a tool to simplify the creation of copy-pasta reviews that are somewhat popular on Steam. The categories and options are not from my head, I just copied them from somewhere. There are some minor variations on some of the options, but this is the typical rundown.  
 
@@ -22,7 +22,7 @@ You just tick all the boxes that you want, the output should look something like
 
 ## Add more language/function
 
-Submit a PR to the upstream repository. If it's rejected, you can submit it here instead.  
+Submit a PR to the [upstream](https://github.com/VojtaStruhar/steam-review-template) repository. If it's rejected, you can submit it here instead.  
 
 ## About Upstream Repository
 

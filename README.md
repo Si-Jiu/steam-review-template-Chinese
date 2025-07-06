@@ -1,6 +1,6 @@
 # Steam 评测模板
 
-**简体中文** | [English](./README_EN.md)
+**简体中文** | [正體中文](./README_ZH-TW.md) | [English](./README_EN.md)
 
 这个工具可以简化创建在Steam测评上流行的复制粘贴式评测。选项来源于各种Steam评测，做了小修改。
 
@@ -20,9 +20,9 @@
 
 ## 添加新翻译/功能
 
-建议提交到上游，或者你的提交被各种理由拒绝了也可以在这里开PR  
+建议提交到[上游](https://github.com/VojtaStruhar/steam-review-template)，或者你的提交被各种理由拒绝了也可以在这里开PR  
 
-## 关于上游项目
+## 关于上游Repo
 
 我提交了PR到上游，但是原作者因为政治原因拒绝了我的PR。另一位添加俄罗斯翻译的也遇到了这样的情况。  
 相关PR：  
