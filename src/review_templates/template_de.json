@@ -6,12 +6,12 @@
             "title": "Grafik",
             "type": "radio",
             "options": [
-                "Du vergisst was Realität ist",
-                "Wunderschön",
+                "Du vergisst die Realität",
+                "Umwerfend",
                 "Gut",
-                "Anständig",
+                "Ganz ok",
                 "Schlecht",
-                "Kuck es nicht zu lange an",
+                "Längeres Betrachten kann unerwünschte Nebeneffekte haben",
                 "MS-DOS"
             ]
         },
@@ -21,22 +21,22 @@
             "options": [
                 "Sehr gut",
                 "Schön",
-                "Es ist nur Gameplay",
+                "Normales Gampelay halt",
                 "Mehh",
-                "Kuck dir Farbe beim trocknen an",
-                "Einfach Nein"
+                "Farbe beim trocken zuzuschauen ist spannender",
+                "Lass es einfach"
             ]
         },
         {
             "title": "Audio",
             "type": "radio",
             "options": [
-                "Ohrengasmus",
+                "Ohrgasmus",
                 "Sehr gut",
                 "Gut",
-                "Nicht zu schlecht",
+                "Geht",
                 "Schlecht",
-                "Ich bin jetzt Taub"
+                "Mein HNO hat mir Höhrgeräte verschrieben"
             ]
         },
         {
@@ -44,21 +44,21 @@
             "type": "check",
             "options": [
                 "Kinder",
-                "Teens",
+                "Jugendliche",
                 "Erwachsene",
                 "Oma"
             ]
         },
         {
-            "title": "PC Herrauforderung",
+            "title": "Systemanforderungen",
             "type": "radio",
             "options": [
-                "Checke ob es MS Paint öffnen kann",
+                "Schafft dein PC MS Paint?",
                 "Kartoffel",
-                "Decent",
-                "Schnell",
-                "Reicher Junge",
-                "Frag NASA ob sie dir einen Supercomputer leihen"
+                "Durchschnittlicher PC",
+                "Überdurchschnittlicher PC",
+                "Highend",
+                "Frag NASA, ob sie einen Supercomputer für dich herumliegen haben"
             ]
         },
         {
@@ -69,9 +69,9 @@
               "Alte Größe",
               "Okay",
               "Groß",
-              "Wird 15% von ein Terrabyte Festplatte brauchen",
-              "Du brauchst eine ganze Festplatte für das Spiel",
-              "Du brauchst ein Schwarzes Loch für das Spiel"
+              "Wird 15% deiner 1 TB Festplatte brauchen",
+              "Du brauchst eine dedizierte Festplatte für das Spiel",
+              "Du wirst wohl oder übel in ein scharzes Loch investieren müssen um das Spiel zu speichern"
             ]
           },          
         {
@@ -81,21 +81,21 @@
                 "Einfach nur 'W' drücken",
                 "Leicht",
                 "Leicht zu Lernen, schwer zu meistern",
-                "Sehr viel Gehirn benutzung",
+                "Benötigt einiges an Hirnschmalz",
                 "Schwer",
                 "Dark Souls 2.0"
             ]
         },
         {
-            "title": "Grinden",
+            "title": "Grind",
             "type": "radio",
             "options": [
-                "Nichts zum Grinden",
-                "Nur falls du die Rankliste brauchst.",
-                "Nicht Notwendig",
-                "Normales Grinden",
-                "Zu Viel Grinden",
-                "Du brauchst ein neues Leben zum Grinden"
+                "Nicht vorhanden",
+                "Nur wenn dich Ranglisten interessieren",
+                "Nicht notwendig",
+                "Standard Grind",
+                "Viel zu viel",
+                "Kündige deinen Job"
             ]
         },
         {
@@ -103,11 +103,11 @@
             "type": "radio",
             "options": [
                 "Keine Story",
-                "Ein Bisschen",
-                "Normal",
+                "Bissi",
+                "Okay",
                 "Gut",
-                "Liebbar",
-                "Es wird dein Leben verändern"
+                "Recht gut",
+                "Das Spiel wird dein Leben ersetzen"
             ]
         },
         {
@@ -118,30 +118,30 @@
                 "Kurz",
                 "Normal",
                 "Lang",
-                "Zur Unendlichkeit und noch weiter"
+                "Bis zum Hitzetod des Universums und noch viel länger"
             ]
         },
         {
-            "title": "Preiß",
+            "title": "Preis",
             "type": "radio",
             "options": [
-                "Kostenlos!",
-                "Preiß wert",
-                "Nur wenn es auf Sale ist.",
-                "Falls du noch ein bisschen Geld hast",
-                "Nein, Einfach Nein.",
-                "Du kannst auch Kohle verbrennen"
+                "Praktisch geschenkt",
+                "Es lohnt sich",
+                "Nur mit Rabatt",
+                "Wenn du ein bisschen Geld übrig hast",
+                "Nicht empfohlen",
+                "Benutz das Geld lieber zum einheizen"
             ]
         },
         {
-            "title": "Glitche",
+            "title": "Bugs",
             "type": "radio",
             "options": [
-                "Keine Glitche",
+                "Keine mitbekommen",
                 "Ein paar",
-                "Wird Nervend",
-                "ARK: Survival",
-                "Glitch Hölle."
+                "Kann nervig werden",
+                "ARK: Survival Evolved",
+                "Das ganze Spiel ist ein einziges Bugfest"
             ]
         },
         {
