@@ -1,6 +1,6 @@
 {
     "name": "Template",
-    "author": "Author",
+    "author": "Autor",
     "categories": [
         {
             "title": "Grafika",
@@ -31,7 +31,7 @@
             "title": "Audio",
             "type": "radio",
             "options": [
-                "Eargasm",
+                "Orgazm uszny",
                 "Bardzo dobra",
                 "Dobra",
                 "Nie najgorsza",
@@ -46,14 +46,14 @@
                 "Dzieci",
                 "Nastolatki",
                 "Dorośli",
-                "Babcia"
+                "Dziadkowie"
             ]
         },
         {
             "title": "Wymagania sprzętowe",
             "type": "radio",
             "options": [
-                "Sprawdź czy moesz włączyć painta",
+                "Sprawdź czy możesz włączyć painta",
                 "Ziemniak",
                 "Średni",
                 "Szybki",
@@ -81,7 +81,7 @@
                 "Poprostu naciśnij 'W'",
                 "Łatwa",
                 "Łatwa do nauki / trudna do opanowania",
-                "Due uucie mózgu",
+                "Duże użycie mózgu",
                 "Trudna",
                 "Dark Souls"
             ]
@@ -117,7 +117,7 @@
                 "Wystarczy na kubek kawy",
                 "Krótki",
                 "Średni",
-                "Długi",
+                "Dłuuuuuuuuuuuuuuugi",
                 "Do końca świata i jeszcze dłużej"
             ]
         },
@@ -140,6 +140,7 @@
                 "Nigdy o nich nie słyszałem",
                 "Drobne błędy",
                 "Bywają irytujące",
+                "Cyberpunk na premierze",
                 "ARK: Survival Evolved",
                 "Nie graj w to, jeśli nie chcesz być beta testerem"
             ]
@@ -157,7 +158,8 @@
                 "7",
                 "8",
                 "9",
-                "10"
+                "10",
+                "11"
             ]
         }
     ]
