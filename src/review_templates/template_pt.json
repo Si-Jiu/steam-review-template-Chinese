@@ -1,0 +1,164 @@
+{
+    "name": "Modelo",
+    "author": "Autor",
+    "categories": [
+        {
+            "title": "Gráficos",
+            "type": "radio",
+            "options": [
+                "Você se esquece do que é a realidade",
+                "Lindo",
+                "Bom",
+                "Decente",
+                "Ruim",
+                "Não olhe pra isso por muito tempo",
+                "Pior que CGI da novela Mutantes"
+            ]
+        },
+        {
+            "title": "Jogabilidade",
+            "type": "radio",
+            "options": [
+                "Muito Boa",
+                "Boa",
+                "É só um jogo",
+                "Mehh",
+                "Melhor ver tinta secar",
+                "Só não."
+            ]
+        },
+        {
+            "title": "Áudio",
+            "type": "radio",
+            "options": [
+                "Ouvigasmo",
+                "Muito Bom",
+                "Bom",
+                "Não é tão ruim..",
+                "Ruim",
+                "Me deixou mouco"
+            ]
+        },
+        {
+            "title": "Audiência",
+            "type": "check",
+            "options": [
+                "Crianças",
+                "Adolescentes",
+                "Adultos",
+                "Véios"
+            ]
+        },
+        {
+            "title": "Requisitos do PC",
+            "type": "radio",
+            "options": [
+                "Vê ai se tu roda o Paint",
+                "Batata",
+                "Decente",
+                "Máquina",
+                "Tio Patinhas",
+                "Pergunta pra NASA se eles tem um pc sobrando"
+            ]
+        },
+        {
+            "title": "Tamanho",
+            "type": "radio",
+            "options": [
+              "Disquete",
+              "Fliperama Antiguinho",
+              "Viável",
+              "Grande",
+              "Vai comer 15% de 1TB",
+              "Vai precisar de um disco rígido INTEIRO só pra ele",
+              "Investe em buraco negro logo"
+            ]
+          },          
+        {
+            "title": "Dificuldade",
+            "type": "radio",
+            "options": [
+                "Só pressiona 'W'",
+                "Fácil",
+                "Fácil de aprender / difícil de masterizar",
+                "Uso cerebral considerável",
+                "Dificil",
+                "Dark Souls"
+            ]
+        },
+        {
+            "title": "Grind",
+            "type": "radio",
+            "options": [
+                "Nada pra grindar",
+                "Só se tu ligar pra ranking/classificação",
+                "Não é necessário pra progredir",
+                "Mediano",
+                "MUITO",
+                "Vai precisar de outra vida só pra isso"
+            ]
+        },
+        {
+            "title": "História",
+            "type": "radio",
+            "options": [
+                "0 História",
+                "Um pouco de lore",
+                "Mediana",
+                "Boa",
+                "Amável",
+                "Vai mudar sua vida"
+            ]
+        },
+        {
+            "title": "Tempo de Jogo",
+            "type": "radio",
+            "options": [
+                "O suficiente pra um cafézinho",
+                "Curto",
+                "Mediano",
+                "Longo",
+                "Eterno, tal qual Xuxa"
+            ]
+        },
+        {
+            "title": "Preço",
+            "type": "radio",
+            "options": [
+                "É de grátis",
+                "Vale a pena",
+                "Se tiver em promoção",
+                "Se tiver com dinheiro sobrando",
+                "Não recomendável",
+                "Melhor queimar o dinheiro logo"
+            ]
+        },
+        {
+            "title": "Bugs",
+            "type": "radio",
+            "options": [
+                "Nunca vi nenhum",
+                "Pequenos",
+                "Pode ser irritante",
+                "Samsung Galaxy Note 7",
+                "O jogo em si é um bug"
+            ]
+        },
+        {
+            "title": "? / 10",
+            "type": "radio",
+            "options": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10"
+            ]
+        }
+    ]
+}
