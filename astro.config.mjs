@@ -5,7 +5,7 @@ import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://steam-review.sijiu49.us.kg",
+  site: "https://steam-review.sijiu49.moe",
   base: "/",
   integrations: [tailwind(), sitemap()],
   i18n: {
